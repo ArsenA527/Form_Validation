@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка формы на стороне клиента</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header><h2>Создать аккаунт</h2></header>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label>Имя пользователя</label>
+                <input type="text" placeholder="Ivan Ivanov" id="username"></input>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Сообщение об ошибке</small>
+            </div>
+
+            <div class="form-control">
+                <label>Эл. адрес</label>
+                <input type="email" placeholder="Ivanov@gmail.com" id="email"></input>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Сообщение об ошибке</small>
+            </div>
+
+            <div class="form-control">
+                <label>Пароль</label>
+                <input type="password" placeholder="Password" id="password"></input>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Сообщение об ошибке</small>
+            </div>
+
+            <div class="form-control">
+                <label>Проверка пароля</label>
+                <input type="password" placeholder="Password-two" id="password2"></input>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Сообщение об ошибке</small>
+            </div>
+
+            <button>Отправить</button>
+        </form>
+
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
